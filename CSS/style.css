@@ -33,6 +33,10 @@ a {
   color: rgb(63, 145, 43);
 }
 
+.clr {
+  clear: both;
+}
+
 /* navbar */
 
 #navbar {
@@ -109,4 +113,92 @@ display: block;
 #showcase a:hover {
   color: #444;
   background: lightsalmon;
+}
+
+/* Gym history */
+
+#history {
+  height: 400px;
+  background: #333;
+  color: #fff;
+  
+}
+
+#history .history-img {
+float: left;
+background: url('../img/GymBuilding.jpg') no-repeat center center/cover;
+width: 50%;
+min-height: 100%;
+}
+
+#history .history-cont {
+ 
+  float: right;
+  text-align: center;
+  
+  width: 50%;
+  height: 100%;
+  padding: 70px 40px;
+  overflow: hidden;
+}
+
+#history .history-cont a {
+  background: #fff;
+  color: #333;
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding:13px 20px
+}
+
+#history .history-cont a:hover {
+  background: lightsalmon;
+}
+
+#history .history-cont p {
+  padding-bottom: 30px;
+}
+
+/* What we have */
+#we-have i {
+  margin-bottom: 15px;
+}
+
+#we-have .fit-class {
+  background: #fff;
+  float: left;
+  color: #444;
+  text-align: center;
+  width: 33.3%;
+  padding:50px;
+  min-height: 100%;
+}
+
+
+#we-have .cool-stuff {
+  background:rgb(206, 156, 156);;
+  color: #444;
+  float: left;
+  text-align: center;
+  width: 33.3%;
+  padding: 50px;
+}
+
+#we-have .membership {
+  background: #fff;
+  color: #444;
+  float: left;
+  text-align: center;
+  width: 33.3%;
+  padding: 50px;
+}
+
+/* Footer */
+
+#footer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
