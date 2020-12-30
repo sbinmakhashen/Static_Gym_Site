@@ -194,6 +194,87 @@ min-height: 100%;
   padding: 50px;
 }
 
+/* About main */
+
+#about-main {
+  background: rgb(190, 181, 181);
+  color: #333;
+}
+
+#about-main .about-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  padding:20px 0;
+}
+
+#about-main .about-left h1 {
+  font-size: 40px;
+  /* margin:40px; */
+}
+
+#about-main .about-left p {
+  /* margin: 12px 0; */
+  padding: 12px 0;
+}
+
+#about-main .about-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  padding: 20px 0;
+}
+
+#about-main .about-right img {
+  display: block;
+  margin: auto;
+  width: 80%;
+  border-radius: 50%;
+}
+
+/* Reviews */
+
+#reviews {
+
+  background: url('../img/Gym_Entry.jpg') no-repeat center center/cover;
+  /* width: 100%; */
+  /* min-height: 100%; */
+  /* text-align: center; */
+  height: 600px;
+  padding-top: 100px;
+}
+
+#reviews .member {
+  padding: 20px;
+  margin-bottom: 40px;
+  /* border-radius: 20px; */
+  opacity: 0.9;
+
+}
+
+#reviews h1 {
+  padding: 20px;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+#reviews p {
+  background: rgb(190, 181, 181);
+  color: rgb(12, 109, 9);
+  padding:25px ;
+  border-radius: 18px;
+}
+
+#reviews img {
+  float: left;
+  width: 80px;
+  margin-right: 20px;
+  padding: 5px;
+  border-radius: 50%;
+
+}
+
 /* Footer */
 
 #footer {
