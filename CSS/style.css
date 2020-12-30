@@ -194,6 +194,44 @@ min-height: 100%;
   padding: 50px;
 }
 
+/* About main */
+
+#about-main {
+  background: lightsteelblue;
+  color: #333;
+  height: 350px;
+}
+
+#about-main .about-left {
+  float: left;
+  width: 50%;
+  min-height: 50%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#about-main .about-left h1 {
+  font-size: 40px;
+  /* margin:40px; */
+}
+
+#about-main .about-left p {
+  margin: 12px 0;
+}
+
+#about-main .about-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-main .about-right img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-radius: 50%;
+  margin-top: 40px;
+}
 /* Footer */
 
 #footer {
