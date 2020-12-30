@@ -194,6 +194,113 @@ min-height: 100%;
   padding: 50px;
 }
 
+/* About main */
+
+#about-main {
+<<<<<<< HEAD
+  background: rgb(190, 181, 181);
+  color: #333;
+=======
+  background: lightsteelblue;
+  color: #333;
+  height: 350px;
+>>>>>>> 54c07d7fb303f7828d2fd469a322af4eaf7f3f94
+}
+
+#about-main .about-left {
+  float: left;
+  width: 50%;
+<<<<<<< HEAD
+  min-height: 100%;
+  padding:20px 0;
+=======
+  min-height: 50%;
+  text-align: center;
+  margin-top: 40px;
+>>>>>>> 54c07d7fb303f7828d2fd469a322af4eaf7f3f94
+}
+
+#about-main .about-left h1 {
+  font-size: 40px;
+  /* margin:40px; */
+}
+
+#about-main .about-left p {
+<<<<<<< HEAD
+  /* margin: 12px 0; */
+  padding: 12px 0;
+=======
+  margin: 12px 0;
+>>>>>>> 54c07d7fb303f7828d2fd469a322af4eaf7f3f94
+}
+
+#about-main .about-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+<<<<<<< HEAD
+  padding: 20px 0;
+=======
+>>>>>>> 54c07d7fb303f7828d2fd469a322af4eaf7f3f94
+}
+
+#about-main .about-right img {
+  display: block;
+  margin: auto;
+<<<<<<< HEAD
+  width: 80%;
+  border-radius: 50%;
+}
+
+/* Reviews */
+
+#reviews {
+
+  background: url('../img/Gym_Entry.jpg') no-repeat center center/cover;
+  /* width: 100%; */
+  /* min-height: 100%; */
+  /* text-align: center; */
+  height: 600px;
+  padding-top: 100px;
+}
+
+#reviews .member {
+  padding: 20px;
+  margin-bottom: 40px;
+  /* border-radius: 20px; */
+  opacity: 0.9;
+
+}
+
+#reviews h1 {
+  padding: 20px;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+#reviews p {
+  background: rgb(190, 181, 181);
+  color: rgb(12, 109, 9);
+  padding:25px ;
+  border-radius: 18px;
+}
+
+#reviews img {
+  float: left;
+  width: 80px;
+  margin-right: 20px;
+  padding: 5px;
+  border-radius: 50%;
+
+}
+
+=======
+  width: 50%;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+>>>>>>> 54c07d7fb303f7828d2fd469a322af4eaf7f3f94
 /* Footer */
 
 #footer {
