@@ -275,6 +275,21 @@ min-height: 100%;
 
 }
 
+/* Contact */
+
+/* form section */
+
+  #form {
+    /* margin: 40px; */
+    padding:30px 0;
+    
+  }
+
+  #form h1 {
+    font-size: 35px;
+  }
+
+
 /* Footer */
 
 #footer {
