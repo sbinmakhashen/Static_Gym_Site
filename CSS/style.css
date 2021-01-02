@@ -330,8 +330,10 @@ min-height: 100%;
 
   #contact {
     background: #333;
-    
+  }
 
+  #contact .contact-info i {
+    margin-bottom: 20px;
   }
 
   #contact .contact-info {
@@ -339,14 +341,14 @@ min-height: 100%;
     padding: 40px;
     float: left;
     text-align: center;
-    /* width: 33.3%; */
+    width: 33.3%;
   }
 
 
 /* Footer */
 
 #footer {
-  background: #333;
+  background: #444;
   color: #fff;
   padding: 20px;
   text-align: center;
