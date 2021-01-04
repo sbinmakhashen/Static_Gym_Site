@@ -116,8 +116,33 @@ display: block;
 }
 
 /* Gym history */
+ /* media queri for about section */
+ @media(max-width:500px) {
+body {
 
-#history {
+    width: 100%;
+  } 
+
+  #navbar {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  #showcase img{
+    width: 100vw;
+  }
+
+  #history {
+  width: 100vw;
+  height: 100vh;  
+  }
+
+  #history h1, #history p, #history a{
+     
+    padding-bottom: 10rem;
+   }
+ }
+  #history {
   height: 400px;
   background: #333;
   color: #fff;
