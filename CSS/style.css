@@ -68,7 +68,7 @@ float: right;
 }
 
 #navbar ul li a {
-display: block; 
+ display: block; 
  padding: 20px;
  text-align: center;
 }
@@ -117,7 +117,7 @@ display: block;
 
 /* Gym history */
  /* media queri for about section */
- @media(max-width:500px) {
+ /* @media(max-width:500px) {
 body {
 
     width: 100%;
@@ -141,7 +141,7 @@ body {
      
     padding-bottom: 10rem;
    }
- }
+ } */
   #history {
   height: 400px;
   background: #333;
