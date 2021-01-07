@@ -18,8 +18,11 @@
 /* Showcase */
 #showcase {
   height: 100%;
-  padding-top: 70px;
-  padding-bottom: 30px;
+  padding: 20px 0;
+}
+
+#showcase h1 {
+  font-size: 60px;
 }
 
 /* History info */
@@ -33,6 +36,8 @@
 
 #history .history-cont {
   width: 100%;
+  padding: 40px 15px;
+  /* padding-top: 35px; */
 
 }
 
@@ -46,3 +51,62 @@
   padding: 10px;
 }
 
+/* About page */
+/* About dection */
+#about-main .about-left, 
+#about-main .about-right {
+  float: none;
+  width: 100%;
+}
+
+#about-main .about-left h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+
+#about-main .about-right img {
+  border-radius: 10%;
+  width: 100%;
+}
+/* Member reviews section */
+#reviews {
+  padding-top: unset;
+  height: 100%;
+}
+
+#reviews .container {
+  padding: 0 5px;
+}
+
+#reviews .member {
+  margin: 20px 0;
+  padding:0;
+}
+
+#reviews h1 {
+  padding: 5px 0;
+  line-height: 1.1;
+}
+
+/* Contact page */
+/* form section */
+#form h1 {
+  text-align: center;
+}
+
+#form p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* contact section */
+#contact .contact-info {
+  float: none;
+  width: 100%;
+  border-bottom: olive 2px solid;
+}
+
+#contact .contact-info:last-child {
+  border-bottom: none;
+}
